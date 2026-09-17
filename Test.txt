@@ -12,3 +12,6 @@ How to Commit:
 
 How to Start Server:
     npm run dev
+
+How to Build?
+    npm run build
