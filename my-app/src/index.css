@@ -326,3 +326,42 @@ main {
 .project-info a:hover {
   background-color: #666666;
 }
+
+/* Education */
+
+.education-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.education-entry {
+  margin-bottom: 35px;
+  padding: 25px;
+  background-color: #222222;
+  border-radius: 8px;
+}
+
+.education-entry h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+.education-meta {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #cccccc;
+}
+
+.education-entry ul {
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.education-entry li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
