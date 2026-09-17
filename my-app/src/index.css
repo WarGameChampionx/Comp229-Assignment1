@@ -250,3 +250,79 @@ main {
 .about-text p {
   line-height: 1.7;
 }
+
+/* About Me Page - Resume */
+
+.resume-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.resume-link:hover {
+  background-color: #555555;
+}
+
+/* Projects Page */
+
+.projects-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.projects-intro {
+  margin-bottom: 30px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.project-card {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  background-color: #222222;
+  border-radius: 8px;
+}
+
+.project-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+.project-info p {
+  line-height: 1.6;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #444444;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-info a:hover {
+  background-color: #666666;
+}
