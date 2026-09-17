@@ -1,18 +1,16 @@
-import factoryImage from '../assets/Project1.png'
-import gardensImage from '../assets/Project2.png'
-import hm4Image from '../assets/Project3.png'
+import factoryImage       from '../assets/Project1.png'
+import gardensImage       from '../assets/Project2.png'
+import climbTheTowerImage from '../assets/Project3.png'
 
 export default function Projects() {
   return (
     <main className="projects-page">
       <h2>Projects</h2>
-
-      <p className="projects-intro">
-        Here are 3 games I designed and developed
-      </p>
+      <p className="projects-intro">Here are 3 games I designed and developed</p>
 
       <div className="projects-list">
 
+        {/* Factory management game project */}
         <article className="project-card">
           <img src={factoryImage} alt="Factory Through The Ages" className="project-image"/>
 
@@ -41,6 +39,7 @@ export default function Projects() {
           </div>
         </article>
 
+        {/* Procedural music and gardening project */}
         <article className="project-card">
           <img src={gardensImage} alt="Gardens of Music" className="project-image"/>
 
@@ -59,7 +58,9 @@ export default function Projects() {
             </p>
 
             <p>
-              <strong>Outcome:</strong> Developed into a downloadable simulation focused on procedural audio, creativity, and experimentation.
+              <strong>Outcome:</strong> Developed into a downloadable
+              simulation focused on procedural audio, creativity, and
+              experimentation.
             </p>
 
             <a href="https://wargamechampion.itch.io/gardens-of-music" target="_blank" rel="noopener noreferrer">
@@ -68,8 +69,9 @@ export default function Projects() {
           </div>
         </article>
 
+        {/* 3D action-platformer project */}
         <article className="project-card">
-          <img src={hm4Image} alt="HM4: Climb the Tower" className="project-image"/>
+          <img src={climbTheTowerImage} alt="HM4: Climb the Tower" className="project-image"/>
 
           <div className="project-info">
             <h3>HM4: Climb the Tower</h3>

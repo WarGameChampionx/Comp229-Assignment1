@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <main className="home-page">
+      {/* Introductory section describing career goals */}
       <section className="hero">
         <h2>Welcome to My Portfolio</h2>
 
@@ -15,6 +16,7 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Personal mission and development interests */}
       <section className="mission">
         <h2>Mission Statement</h2>
 
@@ -33,6 +35,7 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Quick navigation to the main portfolio sections */}
       <section className="home-navigation">
         <h2>Explore My Portfolio</h2>
 

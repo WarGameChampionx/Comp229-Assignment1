@@ -4,8 +4,13 @@ export default function AboutMe() {
   return (
     <main className="about-page">
       <h2>About Me</h2>
-      <a href="/Matthew Ouellette (2026).pdf" target="_blank" rel="noopener noreferrer" className="resume-link">View My Résumé</a>
 
+      {/* Opens the résumé PDF in a new browser tab */}
+      <a href="/Matthew Ouellette (2026).pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
+        View My Résumé
+      </a>
+
+      {/* Profile image and personal introduction */}
       <div className="about-content">
         <img src={profileImage} alt="Self Portrait" className="profile-image"/>
 

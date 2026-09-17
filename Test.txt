@@ -9,3 +9,6 @@ How to Commit:
 
     # 3. Push the new commit up to GitHub
     git push
+
+How to Start Server:
+    npm run dev

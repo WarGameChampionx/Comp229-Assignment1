@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 export default function ContactMe() {
   const navigate = useNavigate()
 
+  // Stores the current values entered into the contact form.
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -12,8 +13,10 @@ export default function ContactMe() {
     message: '',
   })
 
+  // Stores validation errors displayed to the user.
   const [error, setError] = useState('')
 
+  // Updates the corresponding form field when the user enters information.
   function handleChange(event) {
     const { name, value } = event.target
 
@@ -23,6 +26,7 @@ export default function ContactMe() {
     })
   }
 
+  // Validates the contact form before returning the user to the home page.
   function handleSubmit(event) {
     event.preventDefault()
     setError('')
@@ -31,11 +35,11 @@ export default function ContactMe() {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
     if (
-      !formData.firstName.trim() ||
-      !formData.lastName.trim() ||
+      !formData.firstName    .trim() ||
+      !formData.lastName     .trim() ||
       !formData.contactNumber.trim() ||
-      !formData.email.trim() ||
-      !formData.message.trim()
+      !formData.email        .trim() ||
+      !formData.message      .trim()
     ) {
       setError('Please complete all fields.')
       return

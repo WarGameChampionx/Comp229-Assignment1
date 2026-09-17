@@ -5,6 +5,7 @@ export default function Services() {
 
       <div className="services-list">
 
+        {/* Web development services */}
         <section className="service-card">
           <h3>Web Development</h3>
           <p>
@@ -14,6 +15,7 @@ export default function Services() {
           </p>
         </section>
 
+        {/* Game development services */}
         <section className="service-card">
           <h3>Game Development</h3>
           <p>
@@ -23,6 +25,7 @@ export default function Services() {
           </p>
         </section>
 
+        {/* Programming tutoring services */}
         <section className="service-card">
           <h3>Programming Tutoring</h3>
           <p>
@@ -33,6 +36,7 @@ export default function Services() {
           </p>
         </section>
 
+        {/* Software prototyping services */}
         <section className="service-card">
           <h3>Software Prototyping</h3>
           <p>
