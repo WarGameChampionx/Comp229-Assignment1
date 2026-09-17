@@ -365,3 +365,35 @@ main {
   margin-bottom: 8px;
   line-height: 1.5;
 }
+
+/* Services */
+
+.services-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.service-card {
+  padding: 25px;
+  background-color: #222222;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.service-card p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
